@@ -14,7 +14,7 @@ body{
     align-items: center;
     padding: 8px;
     margin-bottom: 150px;
-    border-bottom: 100px solid #1F2937;
+    border-bottom: 75px solid #1F2937;
 }
 
 .header .logo
@@ -41,8 +41,38 @@ body{
     color: #F9FAF8;
     padding-left: 150px;
     padding-right: 150px;
+    border-bottom: 75px solid #1F2937;
+
 }
 
+.hero {
+    display: flex;
+    gap: 50px;
+}
+
+.hero div{
+    display: flex;
+    flex: 1;
+}
+
+
+.hero .button {
+    background-color: #3882F6;
+    padding: 8px 30px;
+    margin-right: auto;
+
+}
+
+.hero .image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:  #6c737c;
+
+}
+.text {
+    flex-direction: column;
+}
 
 h1 {
     margin: 0;
@@ -51,6 +81,11 @@ h1 {
 a {
     text-decoration: none;
 
+}
+
+.button
+{
+    border-radius: 5px;
 }
 
 a:visited {
