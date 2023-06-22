@@ -117,9 +117,28 @@ ul {
     text-align: center;
 }
 
+.quote.panel {
+
+    border-bottom: 50px solid  #e5e7eb;
+    border-top: 50px solid  #e5e7eb;
+    background-color: #e5e7eb;
+}
+
+.quote .content {
+    padding-left: 150px;
+    padding-right: 150px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.quote .author{
+    margin-left: auto;
+    text-align: left;
+}
+
 a {
     text-decoration: none;
-
 }
 
 .button {
