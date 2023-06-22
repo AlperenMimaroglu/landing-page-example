@@ -6,7 +6,11 @@
 body {
     margin: 0;
     padding: 0;
-
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    flex: 1;
+    height: 100vh;
 }
 
 .header {
@@ -87,6 +91,7 @@ h1 {
     margin-right: 150px;
     margin-left: 150px;
 }
+
 h2 {
     font-weight: bolder;
     font-size: 36px;
@@ -119,8 +124,8 @@ ul {
 
 .quote.panel {
 
-    border-bottom: 50px solid  #e5e7eb;
-    border-top: 50px solid  #e5e7eb;
+    border-bottom: 50px solid #e5e7eb;
+    border-top: 50px solid #e5e7eb;
     background-color: #e5e7eb;
 }
 
@@ -132,9 +137,36 @@ ul {
     flex: 1;
 }
 
-.quote .author{
+.quote .author {
     margin-left: auto;
     text-align: left;
+}
+
+.call-to-action {
+    background-color: #3882F6;
+    margin: 50px 150px;
+    padding: 15px 75px;
+    border-radius: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    gap: 50px;
+}
+
+.container p {
+    padding: 0;
+    margin: 0;
+}
+
+.container a {
+    padding: 4px 25px;
+    border-radius: 5px;
+    border: 2px solid white;
+    white-space: nowrap;
 }
 
 a {
@@ -145,6 +177,13 @@ a {
     border-radius: 5px;
 }
 
+footer {
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
+    color: white;
+    background-color: #1f2937;;
+}
 a:visited {
     color: #F9FAF8;
 }
